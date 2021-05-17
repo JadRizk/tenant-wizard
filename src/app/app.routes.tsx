@@ -20,10 +20,6 @@ const routes: TRoute[] = [
     path: '/success',
     component: lazy(() => import('../modules/successPage')),
   },
-  {
-    path: '/',
-    component: lazy(() => import('../modules/welcome')),
-  },
 ];
 //  ================== END ROUTE CONFIGURATION ==================== //
 
